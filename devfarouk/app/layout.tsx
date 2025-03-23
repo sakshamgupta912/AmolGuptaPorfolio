@@ -65,10 +65,15 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  console.log(
+    "%cMade by Saksham Gupta",
+    "font-weight: bold; font-size: 14px; color: #0077b5;"
+  );
+  console.log("LinkedIn: https://www.linkedin.com/in/sakshamgupta912");
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.className} `}>
-      
+        
         <Providers>
           <SplashScreenManager>
             <Navbar />
