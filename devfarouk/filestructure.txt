@@ -1,0 +1,91 @@
+|-- .gitignore
+|-- README.md
+|-- app
+    |-- components
+        |-- Card.tsx
+        |-- MaskCursor.tsx
+        |-- Navbar.tsx
+        |-- Sidebar.tsx
+        |-- SplashScreen.tsx
+        |-- SplashScreenManager.tsx
+        |-- ThemeSwitch.tsx
+    |-- favicon.ico
+    |-- globals.css
+    |-- layout.tsx
+    |-- page.tsx
+    |-- providers.tsx
+    |-- sections
+        |-- About.tsx
+        |-- Contact.tsx
+        |-- Copyright.tsx
+        |-- Experience.tsx
+        |-- Header.tsx
+        |-- Spotlight.tsx
+    |-- works
+        |-- layout.tsx
+        |-- page.tsx
+|-- components
+    |-- ui
+        |-- badge.tsx
+        |-- button.tsx
+        |-- dropdown-menu.tsx
+|-- components.json
+|-- datas
+    |-- data.ts
+    |-- lottie.json
+|-- lib
+    |-- utils.ts
+|-- next-env.d.ts
+|-- next.config.mjs
+|-- package-lock.json
+|-- package.json
+|-- postcss.config.mjs
+|-- public
+    |-- berrystamp.webp
+    |-- bfn.webp
+    |-- deepfocus.webp
+    |-- devf.webp
+    |-- devfarou.webp
+    |-- devfarouk.png
+    |-- devfarouk.webp
+    |-- duplicateremover.webp
+    |-- e-vent.webp
+    |-- frk_ayo.webp
+    |-- gswift.webp
+    |-- huntstore.webp
+    |-- justiron.webp
+    |-- lottie
+        |-- mouse-scroll.json
+    |-- mask.svg
+    |-- moviebox.webp
+    |-- patterns
+        |-- pattern-1.svg
+        |-- pattern-2.svg
+        |-- pattern-3.svg
+        |-- pattern-4.svg
+        |-- pattern-5.svg
+        |-- pattern-6.svg
+        |-- pattern-7.svg
+        |-- pattern-8.svg
+    |-- penslab.webp
+    |-- pharmabin.webp
+    |-- productpage.webp
+    |-- profile.jpeg
+    |-- svgs
+        |-- facebook.svg
+        |-- figma.svg
+        |-- github.svg
+        |-- gmail.svg
+        |-- insta.svg
+        |-- linkedIn.svg
+        |-- message-programming.svg
+        |-- message.svg
+        |-- mobile.svg
+        |-- phone.png
+        |-- profile-bg.png
+        |-- profile-bg.svg
+        |-- user.svg
+        |-- x.svg
+    |-- yalbaze.webp
+|-- tailwind.config.ts
+|-- tsconfig.json
