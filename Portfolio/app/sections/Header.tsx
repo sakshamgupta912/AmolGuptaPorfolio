@@ -1,11 +1,11 @@
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/button";import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
 import Lottie from "lottie-react";
 import mouseScrollAnimation from "@/public/lottie/mouse-scroll.json"; // Place the JSON file in public/lottie
 
-const Header = () => {
+const Header = () => {const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
   return (
     <div className="h-screen flex flex-col justify-center items-center relative">
       <header className="flex flex-col lg:flex-row justify-between mx-0 my-24 items-center bg-center xl:mx-[10%] lg:mx-[7%] md:mx-[7%] gap-5">

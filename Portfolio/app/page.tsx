@@ -9,14 +9,17 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+
 export default function Home() {
   useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      easing: "ease-in-out",
-      once: false,
-    });
-    AOS.refresh();
+    if (typeof window !== "undefined") {  // Prevents SSR issues
+      AOS.init({
+        duration: 1000,
+        easing: "ease-in-out",
+        once: false,
+      });
+      AOS.refresh();
+    }
   }, []);
 
   return (

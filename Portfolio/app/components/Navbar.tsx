@@ -19,7 +19,7 @@ const Navbar = () => {
     <div>
   {/* for desktop */}
   <section
-    className="hidden lg:flex fixed top-0 h-24 flex-row items-center w-full shadow-sm justify-between px-2 sm:px-16 z-20 backdrop-blur-lg"
+    className="hidden lg:flex fixed top-0 h-24 flex-row items-center w-full shadow-sm justify-between px-2 sm:px-16 z-40 backdrop-blur-lg"
     data-aos="fade-down"
   >
     <Link
@@ -93,7 +93,7 @@ const Navbar = () => {
           ))}
           <Button asChild variant={"outline"}>
             <Link
-              href="https://docs.google.com/document/d/1bp5RxbPMA8RHlcUGZIOXIKQ8I1wzLx3MvOQLXVlf8SQ/edit?usp=sharing"
+              href="https://www.linkedin.com/in/amol-gupta-arg"
               className=""
               target="_blank"
               rel="noopener noreferrer"

@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     type: "profile",
     images: [
       {
-        url: "/profile.jpeg",
+        url: "https://media.licdn.com/dms/image/v2/C4E03AQGalxY1OYPldA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1585834488612?e=1748476800&v=beta&t=HmWn9Acmx-cu4ylNbBBb3mk8FHi6XII05Oru7bxVVoA",
         alt: "Amol Gupta Profile Picture",
         width: 800,
         height: 800,
