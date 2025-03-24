@@ -12,16 +12,23 @@ const Contact = () => {
     >
       <div className="flex flex-col gap-2 justify-center items-center w-full sm:w-[85%] m-auto">
         <h2 className=" text-lg sm:text-3xl text-secondary-color-3 font-semibold font-idgrotesk">
-          What next? Let's talk!
+          What next?
         </h2>
-        <h3 className=" text-2xl sm:text-4xl font-bold">Get in Touch</h3>
+        <h3 className=" text-2xl sm:text-4xl font-bold">Let’s Connect!</h3>
         <p className="text-base sm:text-lg">
-        I'm always open to connecting! Whether you want to collaborate on a project, discuss ideas, seek mentorship, or just say hello, feel free to reach out. Click the button below or send an email to:{" "}
+          I believe in the power of collaboration and would love to connect with
+          you. Feel free to reach out through the contact page or follow me on
+          social media for more updates!
+          <br />
+          Thank you for visiting my site, and I look forward to sharing this
+          journey with you!
+          <br />
+          Click the button below or send an email to:{" "}
           <Link
-            href={"mailto:amolratan.gupta@gmail.com"}
+            href={"mailto:amol@amolgupta.com"}
             className=" text-secondary-color-3 font-medium"
           >
-            amolratan.gupta@gmail.com
+            amol@amolgupta.com
           </Link>
           .
         </p>
@@ -29,7 +36,7 @@ const Contact = () => {
           <Link
             target="_blank"
             rel="noopener noreferrer"
-            href={"mailto:amolratan.gupta@gmail.com"}
+            href={"mailto:amol@amolgupta.com"}
             className=" text-base flex items-center justify-center gap-3 px-5 py-2  font-bold w-max  mt-5   border-[1px] hover:bg-[#FBEDDD]  transition-all border-black rounded-lg"
           >
             Send A Message

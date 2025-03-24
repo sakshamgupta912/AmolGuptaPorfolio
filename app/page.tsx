@@ -2,9 +2,10 @@
 
 import Header from "./sections/Header";
 import About from "./sections/About";
-import Works from "./sections/Spotlight";
+import Spotlight from "./sections/Spotlight";
 import Experience from "./sections/Experience";
 import Contact from "./sections/Contact";
+import Vision from "./sections/Vision";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -27,7 +28,8 @@ export default function Home() {
       <Header />
       <About />
       <Experience />
-      <Works />
+      <Spotlight />
+      <Vision />
       <Contact />
     </main>
   );

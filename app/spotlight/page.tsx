@@ -1,4 +1,4 @@
-import { projects } from "@/datas/data";
+import { spotlight } from "@/datas/data";
 import Card from "../components/Card";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import Link from "next/link";
@@ -13,9 +13,9 @@ export default function Work() {
         >
           <IoMdArrowRoundBack size={25} />
         </Link>
-        <h1 className=" font-semibold text-4xl sm:text-5xl">Works</h1>
+        <h1 className=" font-semibold text-4xl sm:text-5xl">Amol in Spotlight</h1>
       </div>
-      {projects.map(
+      {spotlight.map(
         (project, id) =>
           project && (
             <Card
@@ -23,10 +23,9 @@ export default function Work() {
               id={id}
               name={project?.name}
               description={project?.description}
-              image={project?.image}
-              liveLink={project?.liveLink}
-              githubLink={project?.githubLink}
-              stacks={project?.stacks}
+              image={"/spotlight"+(project?.image || "")}
+              liveLink={project?.link}
+              stacks={project?.platforms}
               type={project?.type}
             />
           )

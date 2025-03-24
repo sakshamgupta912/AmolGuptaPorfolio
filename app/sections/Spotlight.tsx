@@ -1,4 +1,4 @@
-import { projects } from "@/datas/data";
+import { projects, spotlight } from "@/datas/data";
 import Card from "../components/Card";
 import Link from "next/link";
 import { IoArrowForward } from "react-icons/io5";
@@ -18,7 +18,39 @@ const Spotlight = () => {
           <div className="w-[5%] lg:w-36 border-b-[1px] border-b-border-color"></div>
         </div>
       </header>
-     <p>Coming Soon..</p> 
+      <div className="flex flex-col gap-24 mt-10">
+        {spotlight
+          .slice(0, 5)
+          .map(
+            (project, id) =>
+              project && (
+                <Card
+                  key={id}
+                  id={id}
+                  name={project?.name}
+                  description={project?.description}
+                  image={"/spotlight"+(project?.image || "")}
+                  liveLink={project?.link}
+                  stacks={project?.platforms}
+                  type={project?.type}
+                />
+              )
+          )}
+        <div className="flex justify-center items-center">
+          <Button asChild variant={"link"}>
+            <Link
+              href={"/spotlight"}
+              className=" flex font-bold border-b border-transparent  transition-all "
+            >
+              <span className="">View All Projects</span>
+
+              <span>
+                <IoArrowForward size={20} className=" text-secondary-color-3" />
+              </span>
+            </Link>
+          </Button>
+        </div>
+      </div>
     </section>
   );
 };

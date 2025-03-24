@@ -14,6 +14,9 @@
     |-- layout.tsx
     |-- page.tsx
     |-- providers.tsx
+    |-- resume
+        |-- layout.tsx
+        |-- page.tsx
     |-- sections
         |-- About.tsx
         |-- Contact.tsx
@@ -21,7 +24,8 @@
         |-- Experience.tsx
         |-- Header.tsx
         |-- Spotlight.tsx
-    |-- works
+        |-- Vision.tsx
+    |-- spotlight
         |-- layout.tsx
         |-- page.tsx
 |-- components
@@ -41,6 +45,7 @@
 |-- package.json
 |-- postcss.config.mjs
 |-- public
+    |-- Resume.pdf
     |-- berrystamp.webp
     |-- bfn.webp
     |-- deepfocus.webp
@@ -71,6 +76,16 @@
     |-- pharmabin.webp
     |-- productpage.webp
     |-- profile.jpeg
+    |-- spotlight
+        |-- Building_A_Talent_Pipeline.png
+        |-- Dear_CHROs_Do_You_Hold_Your_HRBPs_Accountable.png
+        |-- How_AI_and_Metaverse_Can_Transform_the_HR_Industry.png
+        |-- Independent_Director_Certification.jpeg
+        |-- Interview_with_Richa_Jain_Kalra.jpg
+        |-- SHRM_India_HR_Social_Media_Influencer_Ranking_Report_2021-22.jpeg
+        |-- The_Pandemic_and_The_Restructuring.png
+        |-- What_India_Inc_is_Missing_on_Employee_Wellbeing_Front.png
+        |-- whats-driving-its-scramble-for-talent-its-emerging-tech-ai-cloud-big-data-5g-and-more.gif
     |-- svgs
         |-- 86c8c20e2f1de827ca369203593c2ac1.ico
             |-- android-icon-144x144.png

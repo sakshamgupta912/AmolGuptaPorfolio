@@ -6,7 +6,7 @@ export const socialLinks = [
   },
   {
     name: "Gmail",
-    link: "mailto:amolratan.gupta@gmail.com",
+    link: "mailto:amol@amolgupta.com",
     simpleIcon: "/svgs/gmail.svg",
   },
   {
@@ -54,10 +54,11 @@ export const specializations = [
 
 
 export const sections = [
-  { idRoute: "#about", name: "About" },
-  { idRoute: "#experience", name: "Experience" },
-  { idRoute: "#spotlight", name: "Spotlight" },
-  { idRoute: "#contact", name: "Contact" },
+  { idRoute: "#about", name: "ABOUT" },
+  { idRoute: "#experience", name: "EXPERIENCE" },
+  { idRoute: "#spotlight", name: "SPOTLIGHT" },
+  { idRoute: "#vision", name: "VISION" },
+  { idRoute: "#contact", name: "CONTACT" },
 ];
 
 export const companies = [
@@ -308,4 +309,87 @@ export const projects = [
     stacks: ["Sass/scss", "Html", "JavaScript"],
   },
   ,
+];
+export const spotlight = [
+  {
+    name: "Interview with Richa Jain Kalra",
+    type: "Interview",
+    description:
+      "An insightful discussion with Richa Jain Kalra on various HR trends and practices.",
+    link: "https://www.youtube.com/watch?v=at_pOL_7h2E",
+    image: "/Interview_with_Richa_Jain_Kalra.jpg",
+    platforms: ["YouTube"],
+  },
+  {
+    name: "SHRM India HR Social Media Influencer Ranking Report 2021-22",
+    type: "Recognition",
+    description:
+      "Recognized in the SHRM India HR Social Media Influencer Ranking Report for 2021-22.",
+    link: "https://www.linkedin.com/posts/amol-gupta-arg_shrm-shrmindia-shrmtech22-activity-6934708181889601536-Pqmq",
+    image:"/SHRM_India_HR_Social_Media_Influencer_Ranking_Report_2021-22.jpeg",
+    platforms: ["LinkedIn"],
+  },
+  {
+    name: "How AI and Metaverse Can Transform the HR Industry",
+    type: "Article",
+    description:
+      "An article in the Economic Times discussing the transformative potential of AI and the Metaverse in the HR industry.",
+    link: "https://hr.economictimes.indiatimes.com/news/hrtech/how-ai-and-metaverse-can-transform-the-hr-industry/90659933",
+    image:"/How_AI_and_Metaverse_Can_Transform_the_HR_Industry.png",
+    platforms: ["Economic Times"],
+  },
+  {
+    name: "Independent Director Certification",
+    type: "Certification",
+    description:
+      "Certified as an Independent Director, showcasing expertise in corporate governance.",
+    link: "https://www.linkedin.com/posts/amol-gupta-arg_independentdirectors-fisindia-activity-6896294319532429312-bZAX",
+    image:"/Independent_Director_Certification.jpeg",
+    platforms: ["LinkedIn"],
+  },
+  {
+    name: "Dear CHROs, Do You Hold Your HRBPs Accountable?",
+    type: "Article",
+    description:
+      "Quoted in an Economic Times article addressing the accountability of HR Business Partners.",
+    link: "https://hr.economictimes.indiatimes.com/news/trends/employee-experience/dear-chros-do-you-hold-your-hrbps-accountable/88510586",
+    image: "/Dear_CHROs_Do_You_Hold_Your_HRBPs_Accountable.png",
+    platforms: ["Economic Times"],
+  },
+  {
+    name: "The Pandemic and the Restructuring",
+    type: "Article",
+    description:
+      "Discussed digital transformation, effective communication, and empathy in business growth and employee development.",
+    link: "https://humancapitalonline.com/Workplace/details/2361/The+Pandemic+And+The+Restructuring",
+    image:"/The_Pandemic_and_The_Restructuring.png",
+    platforms: ["Human Capital Online"],
+  },
+  {
+    name: "What India Inc is Missing on Employee Wellbeing Front",
+    type: "Article",
+    description:
+      "Explored the aspects of financial wellbeing and its importance in employee satisfaction and performance.",
+    link: "https://hr.economictimes.indiatimes.com/news/workplace-4-0/employee-wellbeing/what-india-inc-is-missing-on-employee-wellbeing-front/86499639",
+    image: "/What_India_Inc_is_Missing_on_Employee_Wellbeing_Front.png",
+    platforms: ["Economic Times"],
+  },
+  {
+    name: "Building A Talent Pipeline",
+    type: "Article",
+    description:
+      "Authored an article on the importance of developing a sustainable talent pipeline for organizational growth.",
+    link: "https://humancapitalonline.com/Talent/details/1741/Building",
+    image:"/Building_A_Talent_Pipeline.png",
+    platforms: ["Human Capital Online"],
+  },
+  {
+    name: "What’s Driving IT’s Scramble for Talent?",
+    type: "Article",
+    description:
+      "Contributed to an Economic Times article discussing the impact of emerging technologies on the demand for tech talent.",
+    link: "https://economictimes.indiatimes.com/prime/technology-and-startups/whats-driving-its-scramble-for-talent-its-emerging-tech-ai-cloud-big-data-5g-and-more/primearticleshow/85635163.cms",
+    image:"/whats-driving-its-scramble-for-talent-its-emerging-tech-ai-cloud-big-data-5g-and-more.gif",
+    platforms: ["Economic Times"],
+  },
 ];

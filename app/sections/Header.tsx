@@ -7,8 +7,8 @@ import mouseScrollAnimation from "@/public/lottie/mouse-scroll.json"; // Place t
 
 const Header = () => {const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
   return (
-    <div className="h-screen flex flex-col justify-center items-center relative">
-      <header className="flex flex-col lg:flex-row justify-between mx-0 my-24 items-center bg-center xl:mx-[10%] lg:mx-[7%] md:mx-[7%] gap-5">
+    <div className="min-h-screen flex flex-col justify-center items-center relative">
+      <header className="flex flex-col lg:flex-row justify-between mx-0 my-24 items-center bg-center xl:mx-[10%] lg:mx-[7%] md:mx-[7%] gap-2">
         <section
           className="w-full xl:w-[70%] relative pb-10 flex flex-col gap-4 lg:w-[70%]"
           data-aos="fade-right"
@@ -27,17 +27,24 @@ const Header = () => {const Lottie = dynamic(() => import("lottie-react"), { ssr
               Senior HR Leader and Organizational Strategist
             </Badge>
             <p className="mt-2">
-              ​I specialize in leading human resources strategies and
-              organizational development initiatives, enhancing employee
-              experiences, and driving cultural transformation within global
-              financial technology organizations.
+              Welcome to my corner of the internet! I’m thrilled to share a bit about myself with you.
+              <br />
+              <div className="mt-2"></div>
+              <strong >Who I Am</strong>
+              <br />
+              I am a passionate HR professional based in Pune, India, dedicated to creating solutions that benefit both organizations and employees. With a focus on fostering a positive workplace culture, I believe that listening and maintaining a positive attitude are key to building strong relationships in any work environment.
+              <br />
+              <div className="mt-2"></div>
+              <strong>My Journey</strong>
+              <br />
+              Throughout my career, I have gained valuable experience in various aspects of human resources. From recruitment and talent management to employee engagement and performance improvement, I’ve had the opportunity to work with diverse teams and drive initiatives that promote growth and satisfaction.
             </p>
           </div>
           <Button asChild variant={"outline"}>
             <Link
               target="_blank"
               rel="noopener noreferrer"
-              href={"mailto:amolratan.gupta@gmail.com"}
+              href={"mailto:amol@amolgupta.com"}
               className="flex items-center border-black justify-center gap-3 px-5 py-2 font-bold w-max border-[1px] mt-5"
             >
               Get in Touch
