@@ -83,7 +83,7 @@ const Navbar = () => {
           >
             <nav className="w-full flex flex-col items-center z-40 mt-36 gap-4 justify-center">
               {sections.map((section, id) => (
-                <Button variant={"link"} key={id} onClick={() => handleNavigation(section.idRoute)}>
+                <Button variant={"link"} key={id} onClick={() => handleNavigation(section.idRoute)} className="dark:text-black">
                   {section.name}
                 </Button>
               ))}
